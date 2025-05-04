@@ -24,7 +24,7 @@ public class WordCounter {
         String text = textArea.getText().trim() ;
 
         if(!text.isEmpty()){
-            String [] word = text.trim().split("\\s+") ;
+            String [] word = text.trim().split("\\s+") ; //trim to remove any space between the numbers
             JOptionPane.showMessageDialog(jFrame,"Total Words: " +word.length);
         }
         else{
